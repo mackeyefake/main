@@ -1,0 +1,50 @@
+.header {
+    background-color: #001829;
+    color: #ffffff;
+    padding: 8px 0px;
+    margin: -8px -8px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.background {
+    background-image: url("../media/revachol.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0;
+    z-index: 1;
+}
+
+.content {
+    background-color: #001829;
+    color: #ffffff;
+    padding: 0px 20px;
+    margin: 8px auto -8px auto;
+    width: 50%;
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+}
+
+p {
+    text-align: justify;
+}
+
+hr {
+    color: #ffffff;
+}
+

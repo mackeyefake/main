@@ -1,0 +1,43 @@
+/* resizes content based on screen width */
+
+@media screen and (max-width: 1080px) {
+    .content {
+        width: 50.00%;
+    }
+}
+
+@media screen and (max-width: 972px) {
+    .content {
+        width: 55.00%;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    .content {
+        width: 60.50%;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .content {
+        width: 66.55%;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .content {
+        width: 73.21%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .content {
+        width: 80.53%;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .content {
+        width: 88.58%;
+    }
+}
