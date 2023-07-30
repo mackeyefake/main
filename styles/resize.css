@@ -1,43 +1,73 @@
-/* resizes content based on screen width */
+/* resize content based on screen width */
 
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 1920px) {
     .content {
-        width: 50.00%;
+        width: 800px;
     }
 }
 
-@media screen and (max-width: 972px) {
+@media screen and (max-width: 1920px) {
     .content {
-        width: 55.00%;
+        width: 41.66%
     }
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 1728px) {
     .content {
-        width: 60.50%;
+        width: 45.83%;
     }
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 1536px) {
     .content {
-        width: 66.55%;
+        width: 50.41%;
     }
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 1344px) {
     .content {
-        width: 73.21%;
+        width: 55.45%;
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1152px) {
     .content {
-        width: 80.53%;
+        width: 61.00%;
     }
 }
 
-@media screen and (max-width: 432px) {
+@media screen and (max-width: 960px) {
     .content {
-        width: 88.58%;
+        width: 67.10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 73.80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        width: 81.18%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .content {
+        width: 89.30%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .content {
+        width: 89.30%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .content {
+        padding: 100px 20px 20px 20px;
     }
 }
