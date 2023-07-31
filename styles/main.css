@@ -23,6 +23,23 @@
 
 }
 
+.content {
+    background-color: #001829;
+    color: #ffffff;
+    position: relative;
+    width: 800px;
+    min-height: 100vh;
+    padding: 50px 20px 10px 20px;
+    margin: 0% auto;
+    z-index: 2;
+}
+
+@media screen and (max-width: 889px) {
+    .content {
+        width: 90%;
+    }
+}
+
 .background {
     background-image: url("../media/revachol.jpg");
     background-size: 100%;
@@ -35,15 +52,6 @@
     z-index: 1;
 }
 
-.content {
-    background-color: #001829;
-    color: #ffffff;
-    position: relative;
-    padding: 50px 2% 1% 2%;
-    margin: 0% auto;
-    z-index: 2;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -51,42 +59,50 @@ a {
 
 a:hover {
     text-decoration: underline;
-  }
+}
 
 p {
     text-align: justify;
+    font-family: "DejaVu Serif";
+}
+
+
+hr {
+    color: #ffffff;
 }
 
 h1 {
     padding: 0;
     margin: 0;
+    font-family: "DejaVu Serif";
 }
 
 h2 {
     padding: 0;
     margin: 0;
+    font-family: "DejaVu Serif";
 }
 
 h3 {
     padding: 0;
     margin: 0;
+    font-family: "DejaVu Serif";
 }
 
 h4 {
     padding: 0;
     margin: 0;
+    font-family: "DejaVu Serif";
 }
 
 h5 {
     padding: 0;
     margin: 0;
+    font-family: "DejaVu Serif";
 }
 
 h6 {
     padding: 0;
     margin: 0;
-}
-
-hr {
-    color: #ffffff;
+    font-family: "DejaVu Serif";
 }
