@@ -3,7 +3,6 @@
     color: #ffffff;
     position: fixed;
     top: 0px; right: 0px; left: 0px;
-    padding: 8px 0px;
     text-align: center;
     border-bottom-style: solid;
     border-width: 2px;
@@ -16,7 +15,6 @@
     color: #ffffff;
     position: fixed;
     right: 0px; bottom: 0px; left: 0px;
-    padding: 4px;
     text-align: center;
     border-top-style: solid;
     border-width: 2px;
@@ -41,9 +39,8 @@
     background-color: #001829;
     color: #ffffff;
     position: relative;
-    padding: 70px 30px 30px 30px;
-    margin: 8px auto auto auto;
-    min-height: 100vh;
+    padding: 50px 2% 1% 2%;
+    margin: 0% auto;
     z-index: 2;
 }
 

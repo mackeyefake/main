@@ -66,8 +66,21 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+
+@media screen and (min-height: 1441px) {
     .content {
-        padding: 100px 20px 20px 20px;
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-height: 1440px) {
+    .content {
+        min-height: 93vh;
+    }
+}
+
+@media screen and (max-height: 1080px) {
+    .content {
+        min-height: 90vh;
     }
 }
