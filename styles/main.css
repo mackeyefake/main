@@ -1,5 +1,5 @@
 .header {
-    background-color: #001829;
+    background-color: #001525;
     color: #ffffff;
     position: fixed;
     top: 0px; right: 0px; left: 0px;
@@ -7,11 +7,17 @@
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #ffffff;
+    transition: 0.5s ease;
     z-index: 3;
 }
 
+.header:hover {
+    background-color: #002030;
+    padding: 5px 0;
+}
+
 .about {
-    background-color: #001829;
+    background-color: #001525;
     color: #ffffff;
     position: fixed;
     right: 0px; bottom: 0px; left: 0px;
@@ -19,19 +25,30 @@
     border-top-style: solid;
     border-width: 2px;
     border-color: #ffffff;
+    transition: 0.5s ease;
     z-index: 3;
+}
 
+.about:hover {
+    background-color: #002030;
+    padding: 5px 0;
 }
 
 .content {
-    background-color: #001829;
+    background-color: #001525;
     color: #ffffff;
     position: relative;
     width: 800px;
     min-height: 100vh;
     padding: 50px 20px 10px 20px;
-    margin: 0% auto;
+    margin: 0 auto;
+    transition: 0.5s ease;
     z-index: 2;
+}
+
+.content:hover {
+    background-color: #002030;
+    padding: 50px 40px 10px 40px;
 }
 
 @media screen and (max-width: 889px) {
@@ -62,47 +79,18 @@ a:hover {
 }
 
 p {
+    color: #ffffff;
     text-align: justify;
     font-family: "DejaVu Serif";
 }
-
 
 hr {
     color: #ffffff;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
     padding: 0;
     margin: 0;
-    font-family: "DejaVu Serif";
-}
-
-h2 {
-    padding: 0;
-    margin: 0;
-    font-family: "DejaVu Serif";
-}
-
-h3 {
-    padding: 0;
-    margin: 0;
-    font-family: "DejaVu Serif";
-}
-
-h4 {
-    padding: 0;
-    margin: 0;
-    font-family: "DejaVu Serif";
-}
-
-h5 {
-    padding: 0;
-    margin: 0;
-    font-family: "DejaVu Serif";
-}
-
-h6 {
-    padding: 0;
-    margin: 0;
-    font-family: "DejaVu Serif";
+    font-family: "DejaVu Serif", Serif;
 }
