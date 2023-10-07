@@ -1,59 +1,60 @@
 .header {
-    background-color: #001525;
+    background-color: #111111;
     color: #ffffff;
     position: fixed;
     top: 0px; right: 0px; left: 0px;
     text-align: center;
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: #ffffff;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
     padding: 10px 0;
     transition: 0.25s ease;
     z-index: 3;
 }
 
 .header:hover {
-    background-color: #002030;
+    background-color: #222222;
     padding: 15px 0;
     font-size: 105%;
 }
 
 .about {
-    background-color: #001525;
+    background-color: #111111;
     color: #ffffff;
     position: fixed;
     right: 0px; bottom: 0px; left: 0px;
     text-align: center;
-    border-top-style: solid;
-    border-width: 2px;
-    border-color: #ffffff;
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
     padding: 10px 0;
     transition: 0.25s ease;
     z-index: 3;
 }
 
 .about:hover {
-    background-color: #002030;
+    background-color: #222222;
     padding: 15px 0;
     font-size: 105%;
 }
 
 .content {
-    background-color: #001525;
+    background-color: #111111;
     color: #ffffff;
     position: relative;
     width: 800px;
     min-height: 100vh;
-    padding: 70px 20px 35px 20px;
+    padding: 80px 20px 35px 20px;
     margin: 0 auto;
     transition: 0.25s ease;
     z-index: 2;
     line-height: 25px;
+
 }
 
 .content:hover {
-    background-color: #002030;
-    padding: 70px 40px 35px 40px;
+    background-color: #222222;
+    padding: 80px 40px 35px 40px;
 }
 
 @media screen and (max-width: 889px) {
